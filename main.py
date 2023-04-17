@@ -46,12 +46,12 @@ class P_:
         for path in self.possible_paths:
             for i in range(len(self.pairs)):
                 new_path = Path(self.pairs, path.indices + [i]) # Agrega un par al path
-                if new_path.is_solution():
+                if new_path.is_solution():  # Si el nuevo path es una solución, lo devuelve
                     return new_path
-                    # Si el nuevo path es una solución, devuelve el nuevo path
-                if new_path.has_possible_solution():
+
+                if new_path.has_possible_solution(): # Si el nuevo path puede ser una solución posible
                     new_paths.append(new_path)
-                    # Si el nuevo path tiene una solución posible, lo agrega a la lista de paths posibles
+
         self.possible_paths = new_paths
         # Actualiza la lista de paths posibles
         return self.solve()
@@ -59,6 +59,7 @@ class P_:
 
 if __name__ == "__main__":
     #pairs (A, B)
+    #              0             1              2              3
     pairs = [("aab", "a"), ("ab", "abb"), ("ab", "bab"), ("ba", "aab")]
 
     P = P_(pairs)
