@@ -15,8 +15,8 @@ python pcp_solver.py
 The solver will then prompt you to enter a list of letter pairs separated by commas. For example:
     
 ```bash
-Enter pairs of letters (e.g. a,b,c,d):
-a,b,c,d
+    #A={(ba,abb,bab} and B={bab,bb,abb}
+    pairs = [("ba", "bab"), ("abb", "bb"), ("bab", "abb")]
 ```
 The solver will then search for a solution to the PCP with the provided letter pairs. If a solution is found, it will be printed to the screen. Otherwise, a message indicating that the PCP is not solvable will be printed.
 
