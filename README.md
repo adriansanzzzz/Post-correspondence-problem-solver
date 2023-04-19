@@ -20,5 +20,5 @@ The solver will then prompt you to enter a list of letter pairs separated by com
 ```
 The solver will then search for a solution to the PCP with the provided letter pairs. If a solution is found, it will be printed to the screen. Otherwise, a message indicating that the PCP is not solvable will be printed.
 
-Adrian Sanz, for the subjet of Computational Models and Complexity of the Master in Computer Science of the University of Lleida.
+Adrian Sanz, for the subjet of Computational Models and Complexity of the bachelor in Computer Science of the University of Lleida.
 2023
