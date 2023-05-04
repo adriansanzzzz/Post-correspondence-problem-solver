@@ -5,13 +5,8 @@ This repository contains a Python implementation of a backtracking algorithm to 
 
 ## How to Use
 
-To use this solver, simply clone the repository and run the `pcp_solver.py` file. Make sure you have Python installed on your system. The implementation is compatible with Python 3.
+To use this solver, simply clone the repository and run the `main.py` file. Make sure you have Python installed on your system. The implementation is compatible with Python 3.
 
-```bash
-git clone https://github.com/[your-username]/pcp_solver.git
-cd pcp_solver
-python pcp_solver.py
-```
 The solver will then prompt you to enter a list of letter pairs separated by commas. For example:
     
 ```bash
